@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    line-height: 18px;
+    
+}
+a{
+    text-align: none;
+}
+.btn-menu{
+    display: none;
+    padding: 20px;
+    background: #0d2c44;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-menu .icono{
+    float: right;
+}
+.contenedor-menu{
+    width: 50px;
+    min-width: 300px;
+    margin: 50px;
+    display: inline-block;
+    line-height: 18px;
+}
+.contenedor-menu .menu{
+    width: 300px;
+}
+.contenedor-menu ul{
+    list-style: none;
+    background: #e9e9e9;
+}
+.contenedor-menu .menu li a{
+    color: #494949;
+    display: block;
+    padding: 15px 20px;
+    background: #e9e9e9;
+}
+.contenedor-menu .menu li a:hover{
+    background: #1a95d5;
+    color: #fff;
+}
+.contenedor-menu .menu lu a:hover{
+    background: #1a95d5;
+    color: #fff;
+}
+.contenedor-menu .menu .icono{
+    font-size: 12px;
+    line-height: 18px;
+}
+.contenedor-menu .menu .icono.derecha{
+    float: right;
+    margin-right: 10px;
+}
+.contenedor-menu .menu ul li a{
+    background: #424242;
+    color: #fff;
+}
+@media screen and (max-width; 250px){
+    body{
+        padding-top: 80px;
+    }
+    .contenedor-menu{
+        margin: 0;
+        width:  100%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+    .btn-menu{
+        display: block;
+    }
+    .contenedor-menu .menu{
+        display: none;
+    }
+}
+/*.jumbotron{
+    background-color: seagreen;
+}
+
+.tarjeta{
+    position: absolute;
+    top: 60px;
+    left: 1080px;
+}
+.tarjeta_links{
+    position: absolute;
+    top: 470px;
+    left: 10px;
+}
+.form{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.tarjetaRadio{
+    position: absolute;
+    top: 315px;
+    left: 10px;
+}
+.carousel{
+    position: absolute;
+    top: 65px;
+    left: 400px;
+}
+img{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+.nvar{
+    
+}
+.a{
+    color: white;
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-inner{
+ height: 200px;
+}
+*/
