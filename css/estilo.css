@@ -1,3 +1,16 @@
+.card-header{
+    background: #900C3F;
+}
+.card-body{
+    background: #C85581;
+}
+.nav{
+    background: gainsboro;
+}
+body{
+    background: gainsboro;
+}
+/*
 *{
     margin: 0;
     padding: 0;
@@ -83,7 +96,10 @@ a{
         display: none;
     }
 }
-/*.jumbotron{
+.accordion{
+    background: #fff;
+}
+.jumbotron{
     background-color: seagreen;
 }
 
